@@ -23,7 +23,7 @@ All other settings can be left as they were, with just one excpetion:
     
     
 *******************************
-#***Configuration of files***
+#***##Configuration of files***
 ******************************    
 
 
