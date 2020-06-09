@@ -1,5 +1,5 @@
 *******************************
-***Setting up Virtual Machine (VM)***
+#***Setting up Virtual Machine (VM)***
 *******************************
 
 Setting up process of VM is pretty straightforward. 
@@ -10,7 +10,7 @@ The user should give:
     
     
 *******************************
-***Installation Process***
+#***Installation Process***
 ******************************    
 
 Installation process is also pretty straightforward. User just needs to select basic settings (language, keyboard-layour)
@@ -23,7 +23,7 @@ All other settings can be left as they were, with just one excpetion:
     
     
 *******************************
-***Configuration of files***
+#***Configuration of files***
 ******************************    
 
 
