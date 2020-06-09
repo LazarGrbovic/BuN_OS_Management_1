@@ -8,3 +8,6 @@ For this project, I will be setting up Ubuntu Server inside VirtualBox.
 *******************************
 ***Software Versions***
 ******************************
+
+***VirtualBox-6.1.8***
+***Ubuntu 20.4 Live Server***  
