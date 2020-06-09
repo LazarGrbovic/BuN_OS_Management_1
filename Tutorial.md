@@ -66,7 +66,7 @@ Steps that need to be done are:
   ***-Log in via CMD and test the connection***
   ------------------------------------------------------------
   - User needs to log to Ubuntu Server inside VM via CMD
-  - In cmd the user needs to type this command with his username (in my case that is lazargrbovic)
+  - In CMD the user needs to type this command with his username (in my case that is lazargrbovic)
   - Ssh -p 1900 lazargrbovic@127.0.0.1
   ------------------------------------------------------------
   
