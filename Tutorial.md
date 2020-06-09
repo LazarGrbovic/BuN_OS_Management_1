@@ -32,8 +32,7 @@ Next parts consits of modifying and creating files needed in order for server to
 
 Steps that need to be done are:
   
-  ***Modifying sshd_Config file***
-  
+  ***Modifying sshd_Config file***  
   ------------------------------------------------------------
   - User needs to open sshd_config file in order to modify it, using the nano text editor
   - command is: sudo nano/etc/ssh/sshd_config 
