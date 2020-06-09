@@ -1,6 +1,6 @@
-
+*******************************
 ***Setting up Virtual Machine (VM)***
-
+*******************************
 
 Setting up process of VM is pretty straightforward. 
 The user should give:
