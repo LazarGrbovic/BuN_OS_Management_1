@@ -4,8 +4,8 @@
 
 -Setting up process of VM is pretty straightforward. 
 -The user should give:
-    - 8GB of RAM to the machine (or less, rule of thumb is 50% of RAM from the host machine) 
-    - 10GB of Memory
+    + 8GB of RAM to the machine (or less, rule of thumb is 50% of RAM from the host machine) 
+    + 10GB of Memory
     
     
     
