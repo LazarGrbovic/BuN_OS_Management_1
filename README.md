@@ -1,5 +1,5 @@
 *******************************
-***README - Introduction***
+**README - Introduction**
 ******************************
 
 Welcome to my step-by-step guide for setting up a simple netowrked project thorugh a command line itnerface!
