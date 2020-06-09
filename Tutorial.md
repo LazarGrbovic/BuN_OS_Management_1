@@ -73,7 +73,7 @@ Steps that need to be done are:
   
   ***-Generating rsa key for the ssh***
   ------------------------------------------------------------
-  - In cmd user needs to type in: ssh-keygen -t rsa
+  - In CMD user needs to type in: ssh-keygen -t rsa
   ------------------------------------------------------------
   
   ***-Getting into VM***
