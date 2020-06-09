@@ -23,12 +23,12 @@ All other settings can be left as they were, with just one excpetion:
     
     
 *******************************
-#***Configuration of files***
+# ***Configuration of files***
 ******************************    
 
 
 
-# ***Next parts consits of modifying and creating files needed in order for server to be accessible from host machine.***
+Next parts consits of modifying and creating files needed in order for server to be accessible from host machine.
 
 Steps that need to be done are:
   
