@@ -49,7 +49,7 @@ Steps that need to be done are:
   ***-Deactivating permitrootlogin***
   ------------------------------------------------------------
   - User needs to change the value of permitrootlogin to "no"
-  - This will deactivate permitrootlogin, so that only users that are not root can sign it
+  - This will deactivate permitrootlogin, so that users that are not root can sign it
   ------------------------------------------------------------
   
   
