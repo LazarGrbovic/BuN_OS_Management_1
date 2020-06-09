@@ -1,5 +1,5 @@
 *******************************
-# ***Setting up Virtual Machine (VM)***
+# ***#Setting up Virtual Machine (VM)***
 *******************************
 
 Setting up process of VM is pretty straightforward. 
@@ -10,7 +10,7 @@ The user should give:
     
     
 *******************************
-## ***Installation Process***
+## ***-Installation Process***
 ******************************    
 
 Installation process is also pretty straightforward. User just needs to select basic settings (language, keyboard-layour)
@@ -23,7 +23,7 @@ All other settings can be left as they were, with just one excpetion:
     
     
 *******************************
-# ***Configuration of files***
+# ***#Configuration of files***
 ******************************    
 
 
@@ -32,28 +32,28 @@ Next parts consits of modifying and creating files needed in order for server to
 
 Steps that need to be done are:
   
-  ***Modifying sshd_Config file***  
+  ***-Modifying sshd_Config file***  
   ------------------------------------------------------------
   - User needs to open sshd_config file in order to modify it, using the nano text editor
   - command is: sudo nano/etc/ssh/sshd_config 
   ------------------------------------------------------------
   
   
-  ***Changing port***
+  ***-Changing port***
   ------------------------------------------------------------
   - User needs to delete "#" symbol infront of the "port 22" and change value to 1900
   ------------------------------------------------------------
   
   
   
-  ***Deactivating permitrootlogin***
+  ***-Deactivating permitrootlogin***
   ------------------------------------------------------------
   - User needs to change the value of permitrootlogin to "no"
   - This will deactivate permitrootlogin, so that only users that are not root can sign it
   ------------------------------------------------------------
   
   
-  ***Modifying Port Forwarding in VM***
+  ***-Modifying Port Forwarding in VM***
   ------------------------------------------------------------
   - User needs to modify port forwarding settings in VM, in order to connect to the Ubuntu Server inside VM.
   - Value for Host IP: 127.0.0.1
@@ -63,7 +63,7 @@ Steps that need to be done are:
   ------------------------------------------------------------
   
   
-  ***Log in via CMD and test the connection***
+  ***-Log in via CMD and test the connection***
   ------------------------------------------------------------
   - User needs to log to Ubuntu Server inside VM via CMD
   - In cmd the user needs to type this command with his username (in my case that is lazargrbovic)
@@ -71,12 +71,12 @@ Steps that need to be done are:
   ------------------------------------------------------------
   
   
-  ***Generating rsa key for the ssh***
+  ***-Generating rsa key for the ssh***
   ------------------------------------------------------------
   - In cmd user needs to type in: ssh-keygen -t rsa
   ------------------------------------------------------------
   
-  ***Getting into VM***
+  ***-Getting into VM***
   ------------------------------------------------------------
   - In CMD: scp -P 2020 C:\Users\Lazar\.ssh\id_rsa.pub lazargrbovic@127.0.0.1:/home/lazargrbovic
   - Scp is used to copy data, and with this command I will copy ssh key to the Virtual Machine
@@ -84,7 +84,7 @@ Steps that need to be done are:
   - Now instead of using his password, user can give his ssh key when logging in
   ------------------------------------------------------------
   
-  ***Commands inside VM (in the Ubuntu Server)***
+  ***-Commands inside VM (in the Ubuntu Server)***
   ------------------------------------------------------------
   - mkdir .ssh (**In this directory the settings for ssh will be saved**)
   - touch .ssh/authorized_keys (**Create authorized keys**)
@@ -92,32 +92,32 @@ Steps that need to be done are:
   - sudo nano /etc/ssh/sshd_config (**Modifying again the config file using nano text editor, in order to remove comment by      pubkeyauthentication to "yes"**)
   ------------------------------------------------------------
   
-  ***Connecting to server***
+  ***-Connecting to server***
   ------------------------------------------------------------
   - ssh -p 2020 lazargrbovic@127.0.0.1 
   - With the command above, user can connect to server, and now he won't need to enter password anymore
   ------------------------------------------------------------
   
   
-  ***Modifying again the ssh_config***
+  ***-Modifying again the ssh_config***
   ------------------------------------------------------------
   - sudo nano /etc/ssh/sshd_config
   - With this file user can edit "sshd_config" file inside a nano text editor, and user should set "PasswordAuthentication" to no
   - This will turn of the password authentication
   ------------------------------------------------------------
   
-  ***Opening the port 1900 in firewall for ssh***
+  ***-Opening the port 1900 in firewall for ssh***
   ------------------------------------------------------------
   - sudo ufw allow 1900
   ------------------------------------------------------------
   
-  ***Closing all other ports for incoming connections***
+  ***-Closing all other ports for incoming connections***
   ------------------------------------------------------------
   - sudo ufw default deny
   ------------------------------------------------------------
   
   
-  ***Activating the firewall***
+  ***-Activating the firewall***
   ------------------------------------------------------------
   - sudo ufw enable
   ------------------------------------------------------------
