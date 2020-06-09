@@ -41,7 +41,7 @@ Steps that need to be done are:
   
   ***-Changing port***
   ------------------------------------------------------------
-  - User needs to delete "#" symbol infront of the "port 22" and change value to 1900
+  - User needs to delete "#" symbol infront of the "port 22" and change value to any value from 1024 to 65535, (in my case 1900)
   ------------------------------------------------------------
   
   
