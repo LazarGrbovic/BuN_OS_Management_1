@@ -57,7 +57,7 @@ Steps that need to be done are:
   ------------------------------------------------------------
   - User needs to modify port forwarding settings in VM, in order to connect to the Ubuntu Server inside VM.
   - Value for Host IP: 127.0.0.1
-  - Value for Host Port: 2020
+  - Value for Host Port: user can choose any value from 1024 to 65535 (except 1900), in my case it is 2020 
   - Value for Guest IP: 10.0.2.15
   - Value for Guest Port: 1900
   ------------------------------------------------------------
