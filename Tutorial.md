@@ -13,9 +13,9 @@ The user should give:
 ## ***-Installation Process***
 ******************************    
 
-Installation process is also pretty straightforward. User just needs to select basic settings (language, keyboard-layour)
+Installation process is also pretty straightforward. User just needs to select basic settings (language, keyboard-layout)
 and his username, server's name and a password.
-All other settings can be left as they were, with just one excpetion:
+All other settings can be left as they were, with just one exception:
     -In installation menu "SSH Setup" user should select to install "OpenSSH".
     
     
