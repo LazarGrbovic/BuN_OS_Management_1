@@ -10,7 +10,7 @@ The user should give:
     
     
 *******************************
-#***Installation Process***
+## ***Installation Process***
 ******************************    
 
 Installation process is also pretty straightforward. User just needs to select basic settings (language, keyboard-layour)
